@@ -12,11 +12,11 @@ public class Main {
         String value;
 
         System.out.println("Instructions:");
-        System.out.println("1 - Add a key-value pair. Provide a key (an Integer value) and a value (a String value).\n\tExample: 1 101 ZhaztedPogi\n");
-        System.out.println("2 - Get the value for a specific key. Provide the key (an Integer value).\n\tExample: 2 101");
-        System.out.println("3 - Remove the value for a specific key. Provide the key (an Integer value).\n\tExample: 3 101");
-        System.out.println("4 - Display the contents of the data structure.");
-        System.out.println("5 - Exit the program.");
+        System.out.println("1 - Add a key-value pair. Provide a key (an Integer value) and a value (a String value).\n");
+        System.out.println("2 - Get the value for a specific key. Provide the key (an Integer value).\n");
+        System.out.println("3 - Remove the value for a specific key. Provide the key (an Integer value).\n");
+        System.out.println("4 - Display the contents.\n");
+        System.out.println("5 - Exit the program.\n");
 
         while(true) {
             System.out.print("\nWhat action would you like to perform?\n");
